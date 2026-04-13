@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Welcome Baby 247 – Book a Lactation Consult</title>
+  <meta name="description" content="Book an in-home or virtual lactation consult with Kate Spivak, PA, IBCLC. Serving Montgomery County and Bucks County, PA." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <meta name="color-scheme" content="light" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<!-- ── Nav ── -->
+<nav aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="Welcome Baby 247 - Lactation Consulting, go to homepage">
+      Welcome Baby 247
+      <span>Lactation Consulting</span>
+    </a>
+    <ul class="nav-links" id="navLinks" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About Kate</a></li>
+      <li><a href="contact.html" class="active nav-cta" aria-current="page">Book a Consult</a></li>
+    </ul>
+    <button type="button" class="hamburger" id="hamburger" aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation menu">
+      <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+    </button>
+  </div>
+</nav>
+
+<main id="main-content">
+
+<!-- ── Page Hero ── -->
+<div class="page-hero">
+  <h1>Book a Consult</h1>
+  <p>In-home visits in Montgomery &amp; Bucks County · Virtual consults available everywhere</p>
+</div>
+
+<!-- ── Contact Section ── -->
+<section>
+  <div class="section-inner">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h2 class="section-title">Let's Connect</h2>
+        <p>Fill out the form and I'll be in touch within a few hours. You can also email me directly — feeding challenges are urgent and I treat them that way.</p>
+
+        <div class="contact-detail">
+          <span class="icon" aria-hidden="true">✉️</span>
+          <div>
+            <strong>Email</strong>
+            <a href="mailto:welcomebaby247@gmail.com">welcomebaby247@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <span class="icon" aria-hidden="true">📍</span>
+          <div>
+            <strong>In-Home Service Area</strong>
+            Montgomery County &amp; Bucks County, PA
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <span class="icon" aria-hidden="true">💻</span>
+          <div>
+            <strong>Virtual Consults</strong>
+            Available to families anywhere
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <span class="icon" aria-hidden="true">🕐</span>
+          <div>
+            <strong>Response Time</strong>
+            Typically within a few hours
+          </div>
+        </div>
+
+        <div class="bridge-callout" style="margin-top:2rem;">
+          <h4>Not Sure What You Need?</h4>
+          <p>Just reach out and describe what's going on. Together we'll figure out whether an in-home visit or virtual consult makes the most sense for your situation.</p>
+        </div>
+      </div>
+
+      <!-- Form via FormSubmit.co — replace ACTION with your verified email -->
+      <div class="contact-form">
+        <form action="https://formsubmit.co/welcomebaby247@gmail.com" method="POST" aria-label="Consult booking form">
+          <!-- FormSubmit config -->
+          <input type="hidden" name="_subject" value="New Consult Request – Welcome Baby 247" />
+          <input type="hidden" name="_next" value="https://welcomebaby247.com/thankyou.html" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="text" name="_honey" aria-hidden="true" tabindex="-1" style="display:none" />
+
+          <p style="font-size:0.85rem;color:var(--muted);margin-bottom:1.25rem;">Fields marked with <span aria-hidden="true">*</span><span class="sr-only">an asterisk</span> are required.</p>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name *</label>
+              <input type="text" id="fname" name="first_name" required placeholder="Jane" autocomplete="given-name" />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name *</label>
+              <input type="text" id="lname" name="last_name" required placeholder="Smith" autocomplete="family-name" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required placeholder="jane@example.com" autocomplete="email" />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="(215) 555-1234" autocomplete="tel" />
+          </div>
+
+          <div class="form-group">
+            <label for="consult_type">Type of Consult *</label>
+            <select id="consult_type" name="consult_type" required>
+              <option value="" disabled selected>Select one…</option>
+              <option value="In-Home Visit">In-Home Visit (Montgomery or Bucks County, PA)</option>
+              <option value="Virtual Consult">Virtual Consult</option>
+              <option value="Not Sure">Not Sure — Please Help Me Decide</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="baby_age">Baby's Age (or Due Date)</label>
+            <input type="text" id="baby_age" name="baby_age" placeholder="e.g. 2 weeks, or due March 15" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Tell Me What's Going On *</label>
+            <textarea id="message" name="message" required placeholder="Describe your situation — what's working, what's not, and what you're hoping to get from a consult."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width:100%;font-size:1rem;">Send Request</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Area ── -->
+<section class="alt">
+  <div class="section-inner">
+    <p class="section-label">Service Area</p>
+    <h2 class="section-title">Where I Serve</h2>
+    <p class="section-sub">In-home visits across Montgomery and Bucks County. Virtual consults available anywhere.</p>
+    <div class="area-grid">
+      <div class="area-card">
+        <div class="icon" aria-hidden="true">📍</div>
+        <h3>Montgomery County</h3>
+        <p>Ambler, Blue Bell, Cheltenham, Fort Washington, Glenside, Horsham, Jenkintown, Lansdale, North Wales, Norristown, Plymouth Meeting, Willow Grove, and surrounding areas.</p>
+      </div>
+      <div class="area-card">
+        <div class="icon" aria-hidden="true">📍</div>
+        <h3>Bucks County</h3>
+        <p>Chalfont, Doylestown, Hatboro, Horsham, Jamison, Langhorne, Newtown, Southampton, Warminster, Warrington, and surrounding communities.</p>
+      </div>
+      <div class="area-card">
+        <div class="icon" aria-hidden="true">💻</div>
+        <h3>Virtual — Anywhere</h3>
+        <p>Not in the Philadelphia area? Virtual consults are available to families everywhere. Expert support without the commute.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ── Footer ── -->
+<footer aria-label="Site footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <h3>Welcome Baby 247</h3>
+      <p>Compassionate, expert lactation support for families in Montgomery &amp; Bucks County, PA — and virtually everywhere else.</p>
+      <p style="margin-top:0.75rem;">Kate Spivak, PA, IBCLC</p>
+    </div>
+    <div class="footer-nav">
+      <h4>Pages</h4>
+      <ul role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About Kate</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-nav">
+      <h4>Contact</h4>
+      <ul role="list">
+        <li><a href="mailto:welcomebaby247@gmail.com">welcomebaby247@gmail.com</a></li>
+        <li>In-Home: Montgomery &amp; Bucks County, PA</li>
+        <li>Virtual: Available Everywhere</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Welcome Baby 247 · Kate Spivak, PA, IBCLC</span>
+    <span>Montgomery &amp; Bucks County, PA</span>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+</body>
+</html>

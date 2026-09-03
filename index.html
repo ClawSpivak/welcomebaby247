@@ -3,202 +3,163 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Welcome Baby 247 | Lactation Consultant – Montgomery & Bucks County, PA</title>
-  <meta name="description" content="Kate Spivak, PA, IBCLC – In-home and virtual lactation support in Montgomery County and Bucks County, PA. Expert breastfeeding help when you need it most." />
+  <title>Welcome Baby 247 | Lactation Consulting – Coming Soon</title>
+  <meta name="description" content="Kate Spivak, PA, IBCLC — in-home and virtual lactation support in Montgomery &amp; Bucks County, PA. Site launching soon." />
+  <meta name="color-scheme" content="light" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
-  <meta name="color-scheme" content="light" />
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    :root {
+      --blue:       #3A8FC4;
+      --blue-dark:  #256898;
+      --blue-light: #EAF4FB;
+      --warm:       #F9F5F0;
+      --text:       #2D2D2D;
+      --muted:      #5D6470;
+      --white:      #FFFFFF;
+      --shadow:     0 4px 20px rgba(0,0,0,0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+    }
+    body {
+      font-family: 'Lato', sans-serif;
+      color: var(--text);
+      background: linear-gradient(135deg, #EAF4FB 0%, #F9F5F0 100%);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.7;
+    }
+    a { color: var(--blue-dark); }
+    a:focus-visible, button:focus-visible {
+      outline: 3px solid var(--blue-dark);
+      outline-offset: 3px;
+      border-radius: 2px;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem 1.5rem;
+    }
+    .card {
+      background: var(--white);
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+      max-width: 560px;
+      width: 100%;
+      padding: 3.5rem 3rem;
+      text-align: center;
+    }
+    .mark {
+      font-size: 2.5rem;
+      margin-bottom: 1.25rem;
+    }
+    .brand {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--blue-dark);
+    }
+    .brand span {
+      display: block;
+      font-family: 'Lato', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 400;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-top: 0.3rem;
+    }
+    .eyebrow {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--blue-dark);
+      font-weight: 700;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 5vw, 2.5rem);
+      color: var(--text);
+      margin: 0.6rem 0 1.1rem;
+    }
+    p.lead {
+      color: var(--muted);
+      font-size: 1.05rem;
+      max-width: 420px;
+      margin: 0 auto 2rem;
+    }
+    .credential-list {
+      list-style: none;
+      display: inline-flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      margin: 0 auto 2rem;
+      text-align: left;
+    }
+    .credential-list li {
+      color: var(--muted);
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+    }
+    .credential-list li::before { content: "✓"; color: var(--blue); font-weight: 700; }
+    .divider {
+      height: 1px;
+      background: #E0EEF7;
+      margin: 2rem 0;
+    }
+    .contact {
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+    .contact a {
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .contact a:hover { text-decoration: underline; }
+    .service-area {
+      margin-top: 0.6rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+  </style>
 </head>
 <body>
 
-<a class="skip-link" href="#main-content">Skip to main content</a>
-
-<!-- ── Nav ── -->
-<nav aria-label="Main navigation">
-  <div class="nav-inner">
-    <a href="index.html" class="nav-logo" aria-label="Welcome Baby 247 - Lactation Consulting, go to homepage">
-      Welcome Baby 247
-      <span>Lactation Consulting</span>
-    </a>
-    <ul class="nav-links" id="navLinks" role="list">
-      <li><a href="index.html" class="active" aria-current="page">Home</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="about.html">About Kate</a></li>
-      <li><a href="contact.html" class="nav-cta">Book a Consult</a></li>
+<main>
+  <div class="card" role="main" aria-labelledby="coming-soon-heading">
+    <p class="mark" aria-hidden="true">👶</p>
+    <p class="brand">Welcome Baby 247<span>Lactation Consulting</span></p>
+    <p class="eyebrow">Montgomery &amp; Bucks County, PA · Virtual Available</p>
+    <h1 id="coming-soon-heading">We're getting things ready.</h1>
+    <p class="lead">Our new site is on its way — in-home and virtual lactation support from Kate Spivak, PA, IBCLC, coming soon.</p>
+    <ul class="credential-list">
+      <li>Physician Assistant (PA)</li>
+      <li>International Board Certified Lactation Consultant (IBCLC)</li>
+      <li>Inventor of the Laally Bridge, now the Neotech Bridge</li>
     </ul>
-    <button type="button" class="hamburger" id="hamburger" aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation menu">
-      <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
-    </button>
+    <div class="divider"></div>
+    <p class="contact">Questions in the meantime? <a href="mailto:welcomebaby247@gmail.com">welcomebaby247@gmail.com</a></p>
+    <p class="service-area">Serving Montgomery &amp; Bucks County, PA · Virtual consults available everywhere</p>
   </div>
-</nav>
-
-<main id="main-content">
-
-<!-- ── Hero ── -->
-<section class="hero">
-  <div class="hero-inner">
-    <p class="hero-eyebrow">Montgomery &amp; Bucks County, PA · Virtual Available</p>
-    <h1>Expert Breastfeeding Support, When You Need It Most</h1>
-    <p>Kate Spivak, PA, IBCLC brings compassionate, evidence-based lactation care directly to your home — or virtually, wherever you are.</p>
-    <div class="hero-buttons">
-      <a href="contact.html" class="btn btn-primary">Book a Consult</a>
-      <a href="services.html" class="btn btn-outline">See Services</a>
-    </div>
-  </div>
-</section>
-
-<!-- ── Services Overview ── -->
-<section>
-  <div class="section-inner">
-    <p class="section-label">How I Can Help</p>
-    <h2 class="section-title">Personalized Support for Every Feeding Journey</h2>
-    <p class="section-sub">Whether you're struggling with latch, navigating supply concerns, or just want guidance, I'm here to help.</p>
-    <div class="cards">
-      <div class="card">
-        <div class="card-icon" aria-hidden="true">🏠</div>
-        <h3>In-Home Visits</h3>
-        <p>I come to you in Montgomery County and Bucks County, PA — so you can relax in your own space while we work through your feeding goals together.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon" aria-hidden="true">💻</div>
-        <h3>Virtual Consults</h3>
-        <p>Expert lactation support via video from anywhere. Ideal for follow-up appointments, quick questions, or when leaving home isn't an option.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon" aria-hidden="true">📞</div>
-        <h3>Ongoing Support</h3>
-        <p>Breastfeeding evolves as your baby grows. I offer continued guidance so you're never navigating a challenge alone.</p>
-      </div>
-    </div>
-    <div style="text-align:center;margin-top:2.5rem;">
-      <a href="services.html" class="btn btn-outline">View All Services</a>
-    </div>
-  </div>
-</section>
-
-<!-- ── About Teaser ── -->
-<section class="alt">
-  <div class="section-inner">
-    <div class="about-grid">
-      <div class="about-placeholder" role="img" aria-label="Illustration representing newborn care and lactation support">👶</div>
-      <div>
-        <p class="section-label">About Kate</p>
-        <h2 class="section-title">A Clinician Who's Been in Your Corner</h2>
-        <p>Kate Spivak is a Physician Assistant and International Board Certified Lactation Consultant (IBCLC) with deep clinical expertise and a genuine passion for supporting new families.</p>
-        <ul class="credential-list">
-          <li>Physician Assistant (PA)</li>
-          <li>International Board Certified Lactation Consultant (IBCLC)</li>
-          <li>Inventor of the Laally Bridge, now sold commercially as the Neotech Bridge</li>
-          <li>Serving Montgomery &amp; Bucks County families for years</li>
-        </ul>
-        <div class="bridge-callout">
-          <h4>The Bridge That Changed NICU Care</h4>
-          <p>Kate invented the Laally Bridge — a device designed to help NICU babies transition from tube feeding to breastfeeding. It is now commercially available as the Neotech Bridge, used in NICUs across the country.</p>
-        </div>
-        <a href="about.html" class="btn btn-primary" style="margin-top:1.5rem;">Read Kate's Story</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ── Why IBCLC ── -->
-<section class="blue-bg">
-  <div class="section-inner">
-    <p class="section-label">Why It Matters</p>
-    <h2 class="section-title">What Makes an IBCLC Different</h2>
-    <p class="section-sub">An International Board Certified Lactation Consultant is the gold standard in breastfeeding support — here's why that matters for your family.</p>
-    <div class="cards">
-      <div class="card">
-        <div class="card-icon" aria-hidden="true">🎓</div>
-        <h3>Rigorous Certification</h3>
-        <p>IBCLCs complete hundreds of clinical hours and pass a comprehensive board exam — the highest credential in lactation care.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon" aria-hidden="true">🩺</div>
-        <h3>Clinical Expertise</h3>
-        <p>Kate brings an additional layer of medical knowledge as a Physician Assistant, allowing her to assess underlying clinical factors that affect feeding.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon" aria-hidden="true">🤝</div>
-        <h3>Individualized Care</h3>
-        <p>No two feeding journeys are alike. Kate develops a personalized plan based on your specific situation, goals, and baby's needs.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ── Service Area ── -->
-<section>
-  <div class="section-inner">
-    <p class="section-label">Where I Serve</p>
-    <h2 class="section-title">In-Home Service Area</h2>
-    <p class="section-sub">I travel to families throughout Montgomery County and Bucks County, PA. Virtual consults are available everywhere.</p>
-    <div class="area-grid">
-      <div class="area-card">
-        <div class="icon" aria-hidden="true">📍</div>
-        <h3>Montgomery County</h3>
-        <p>Including Ambler, Blue Bell, Glenside, Horsham, Jenkintown, Lansdale, Norristown, Plymouth Meeting, and surrounding areas.</p>
-      </div>
-      <div class="area-card">
-        <div class="icon" aria-hidden="true">📍</div>
-        <h3>Bucks County</h3>
-        <p>Including Doylestown, Lansdale, Newtown, Southampton, Warminster, Warrington, and surrounding communities.</p>
-      </div>
-      <div class="area-card">
-        <div class="icon" aria-hidden="true">💻</div>
-        <h3>Virtual — Anywhere</h3>
-        <p>Virtual consults are available to families anywhere. Connect via secure video for expert support from home.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ── CTA ── -->
-<section class="alt">
-  <div class="section-inner" style="text-align:center;max-width:640px;margin:0 auto;">
-    <p class="section-label">Get Started</p>
-    <h2 class="section-title">Ready to Get the Support You Deserve?</h2>
-    <p style="color:var(--muted);font-size:1.05rem;margin-bottom:2rem;">Reach out today to schedule an in-home visit or virtual consult. I'm here 24/7 — because babies don't keep business hours.</p>
-    <a href="contact.html" class="btn btn-primary">Book a Consult</a>
-  </div>
-</section>
-
 </main>
 
-<!-- ── Footer ── -->
-<footer aria-label="Site footer">
-  <div class="footer-inner">
-    <div class="footer-brand">
-      <h3>Welcome Baby 247</h3>
-      <p>Compassionate, expert lactation support for families in Montgomery &amp; Bucks County, PA — and virtually everywhere else.</p>
-      <p style="margin-top:0.75rem;">Kate Spivak, PA, IBCLC</p>
-    </div>
-    <div class="footer-nav">
-      <h4>Pages</h4>
-      <ul role="list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="about.html">About Kate</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-    <div class="footer-nav">
-      <h4>Contact</h4>
-      <ul role="list">
-        <li><a href="mailto:welcomebaby247@gmail.com">welcomebaby247@gmail.com</a></li>
-        <li>In-Home: Montgomery &amp; Bucks County, PA</li>
-        <li>Virtual: Available Everywhere</li>
-      </ul>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <span>© 2025 Welcome Baby 247 · Kate Spivak, PA, IBCLC</span>
-    <span>Montgomery &amp; Bucks County, PA</span>
-  </div>
-</footer>
+<footer>© 2026 Welcome Baby 247 · Kate Spivak, PA, IBCLC</footer>
 
-<script src="nav.js"></script>
 </body>
 </html>

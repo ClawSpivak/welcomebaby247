@@ -53,12 +53,31 @@
       box-shadow: var(--shadow);
       max-width: 560px;
       width: 100%;
-      padding: 3.5rem 3rem;
       text-align: center;
+      overflow: hidden;
     }
-    .mark {
-      font-size: 2.5rem;
-      margin-bottom: 1.25rem;
+    .hero-photo {
+      width: 100%;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      border-radius: 16px 16px 0 0;
+      display: block;
+    }
+    .card-body { padding: 3.5rem 3rem; }
+    .kate-avatar {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--blue-light);
+      color: var(--blue-dark);
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      font-size: 1.3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1rem;
+      border: 2px solid var(--blue-light);
     }
     .brand {
       font-family: 'Playfair Display', serif;
@@ -141,25 +160,28 @@
 </head>
 <body>
 
-<main>
-  <div class="card" role="main" aria-labelledby="coming-soon-heading">
-    <p class="mark" aria-hidden="true">👶</p>
-    <p class="brand">Welcome Baby 247<span>Lactation Consulting</span></p>
-    <p class="eyebrow">Montgomery &amp; Bucks County, PA · Virtual Available</p>
-    <h1 id="coming-soon-heading">We're getting things ready.</h1>
-    <p class="lead">Our new site is on its way — in-home and virtual lactation support from Kate Spivak, PA, IBCLC, coming soon.</p>
-    <ul class="credential-list">
-      <li>Physician Assistant (PA)</li>
-      <li>International Board Certified Lactation Consultant (IBCLC)</li>
-      <li>Inventor of the Laally Bridge, now the Neotech Bridge</li>
-    </ul>
-    <div class="divider"></div>
-    <p class="contact">Questions in the meantime? <a href="mailto:welcomebaby247@gmail.com">welcomebaby247@gmail.com</a></p>
-    <p class="service-area">Serving Montgomery &amp; Bucks County, PA · Virtual consults available everywhere</p>
+<main aria-labelledby="coming-soon-heading">
+  <div class="card">
+    <img class="hero-photo" src="images/baby-hand.jpg" alt="A parent gently holding their newborn baby's hand" width="1200" height="675" />
+    <div class="card-body">
+      <p class="kate-avatar" aria-hidden="true">KS</p>
+      <p class="brand">Welcome Baby 247<span>Lactation Consulting</span></p>
+      <p class="eyebrow">Montgomery &amp; Bucks County, PA · Virtual Available</p>
+      <h1 id="coming-soon-heading">We're getting things ready.</h1>
+      <p class="lead">Our new site is on its way — in-home and virtual lactation support from Kate Spivak, PA, IBCLC, coming soon.</p>
+      <ul class="credential-list">
+        <li>Physician Assistant (PA)</li>
+        <li>International Board Certified Lactation Consultant (IBCLC)</li>
+        <li>Inventor of the Laally Bridge, now the Neotech Bridge</li>
+      </ul>
+      <div class="divider"></div>
+      <p class="contact">Questions in the meantime? <a href="mailto:welcomebaby247@gmail.com">welcomebaby247@gmail.com</a></p>
+      <p class="service-area">Serving Montgomery &amp; Bucks County, PA · Virtual consults available everywhere</p>
+    </div>
   </div>
 </main>
 
-<footer>© 2026 Welcome Baby 247 · Kate Spivak, PA, IBCLC</footer>
+<footer aria-label="Site footer">© 2026 Welcome Baby 247 · Kate Spivak, PA, IBCLC</footer>
 
 </body>
 </html>
